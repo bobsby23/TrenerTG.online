@@ -1,0 +1,17 @@
+{
+  "nav": {
+    "home": "Home",
+    "dogAcademy": "Dog Academy",
+    "healthcare": "Healthcare",
+    "media": "Fun Media",
+    "about": "About Us"
+  },
+  "hero": {
+    "title": "Train Smarter, Not Harder",
+    "subtitle": "The Ultimate Dog Academy!",
+    "description": "Transform your relationship with your furry friend through expert-led training",
+    "exploreCourses": "Explore Courses",
+    "startChat": "Start Chat"
+  }
+}
+

@@ -1,0 +1,191 @@
+── app
+│   ├── api
+│   │   ├── auth
+│   │   │   └── route.ts
+│   │   └── chat
+│   │       └── route.ts
+│   ├── components
+│   │   ├── auth
+│   │   │   ├── auth-form.tsx
+│   │   │   └── registration-form.tsx
+│   │   ├── chat
+│   │   │   └── chat-interface.tsx
+│   │   └── chat-interface.tsx
+│   ├── globals.css
+│   ├── [lang]
+│   │   ├── 25v
+│   │   │   └── page.tsx
+│   │   ├── about
+│   │   │   └── page.tsx
+│   │   ├── about-us
+│   │   │   └── page.tsx
+│   │   ├── academy
+│   │   │   ├── basic-obedience
+│   │   │   │   └── page.tsx
+│   │   │   ├── best-practices
+│   │   │   │   └── page.tsx
+│   │   │   ├── dog-festival
+│   │   │   │   └── page.tsx
+│   │   │   └── training-programs
+│   │   │       └── page.tsx
+│   │   ├── blog
+│   │   │   └── page.tsx
+│   │   ├── careers
+│   │   │   └── page.tsx
+│   │   ├── contact
+│   │   │   └── page.tsx
+│   │   ├── cookies
+│   │   │   └── page.tsx
+│   │   ├── dictionaries.ts
+│   │   ├── dog-academy
+│   │   │   ├── advanced
+│   │   │   │   └── page.tsx
+│   │   │   ├── agility
+│   │   │   │   └── page.tsx
+│   │   │   ├── basic-obedience
+│   │   │   │   └── page.tsx
+│   │   │   ├── behavior
+│   │   │   │   └── page.tsx
+│   │   │   ├── page.tsx
+│   │   │   ├── puppy
+│   │   │   │   └── page.tsx
+│   │   │   └── therapy
+│   │   │       └── page.tsx
+│   │   ├── faq
+│   │   │   └── page.tsx
+│   │   ├── fun-media
+│   │   │   └── page.tsx
+│   │   ├── gdpr
+│   │   │   └── page.tsx
+│   │   ├── healthcare
+│   │   │   └── page.tsx
+│   │   ├── layout.tsx
+│   │   ├── legal
+│   │   │   └── gdpr
+│   │   │       └── page.tsx
+│   │   ├── membership
+│   │   │   └── page.tsx
+│   │   ├── page.tsx
+│   │   ├── press
+│   │   │   └── page.tsx
+│   │   ├── privacy
+│   │   │   └── page.tsx
+│   │   ├── resources
+│   │   │   └── video-library
+│   │   │       └── page.tsx
+│   │   ├── terms
+│   │   │   └── page.tsx
+│   │   ├── training
+│   │   │   └── puppies
+│   │   │       └── page.tsx
+│   │   └── training-guides
+│   │       ├── page.tsx
+│   │       └── [slug]
+│   │           └── page.tsx
+│   ├── layout.tsx
+│   └── page.tsx
+├── components
+│   ├── auth
+│   │   ├── join-form.tsx
+│   │   └── sign-in-form.tsx
+│   ├── chat-interface.tsx
+│   ├── chat-section.tsx
+│   ├── client-25v.tsx
+│   ├── client-chat-interface.tsx
+│   ├── client-hero.tsx
+│   ├── client-home.tsx
+│   ├── client-main-nav.tsx
+│   ├── footer.tsx
+│   ├── hero-section.tsx
+│   ├── language-switcher.tsx
+│   ├── main-nav.tsx
+│   ├── theme-provider.tsx
+│   ├── theme-toggle.tsx
+│   ├── training
+│   │   └── course-card.tsx
+│   └── ui
+│       ├── accordion.tsx
+│       ├── alert-dialog.tsx
+│       ├── alert.tsx
+│       ├── aspect-ratio.tsx
+│       ├── avatar.tsx
+│       ├── badge.tsx
+│       ├── breadcrumb.tsx
+│       ├── button.tsx
+│       ├── calendar.tsx
+│       ├── card.tsx
+│       ├── carousel.tsx
+│       ├── chart.tsx
+│       ├── checkbox.tsx
+│       ├── collapsible.tsx
+│       ├── command.tsx
+│       ├── context-menu.tsx
+│       ├── dialog.tsx
+│       ├── drawer.tsx
+│       ├── dropdown-menu.tsx
+│       ├── form.tsx
+│       ├── hover-card.tsx
+│       ├── input-otp.tsx
+│       ├── input.tsx
+│       ├── label.tsx
+│       ├── menubar.tsx
+│       ├── navigation-menu.tsx
+│       ├── pagination.tsx
+│       ├── popover.tsx
+│       ├── progress.tsx
+│       ├── radio-group.tsx
+│       ├── resizable.tsx
+│       ├── scroll-area.tsx
+│       ├── select.tsx
+│       ├── separator.tsx
+│       ├── sheet.tsx
+│       ├── sidebar.tsx
+│       ├── skeleton.tsx
+│       ├── slider.tsx
+│       ├── sonner.tsx
+│       ├── switch.tsx
+│       ├── table.tsx
+│       ├── tabs.tsx
+│       ├── textarea.tsx
+│       ├── toaster.tsx
+│       ├── toast.tsx
+│       ├── toggle-group.tsx
+│       ├── toggle.tsx
+│       ├── tooltip.tsx
+│       ├── use-mobile.tsx
+│       └── use-toast.ts
+├── components.json
+├── hooks
+│   ├── use-mobile.tsx
+│   └── use-toast.ts
+├── lib
+│   ├── store.ts
+│   └── utils.ts
+├── locales
+│   ├── bg.json
+│   └── en.json
+├── middleware.ts
+├── next.config.mjs
+├── package.json
+├── postcss.config.mjs
+├── public
+│   ├── flags
+│   │   ├── bg.svg
+│   │   └── gb.svg
+│   ├── locales
+│   │   ├── bg
+│   │   │   └── common.json
+│   │   └── en
+│   │       └── common.json
+│   ├── placeholder.jpg
+│   ├── placeholder-logo.png
+│   ├── placeholder-logo.svg
+│   ├── placeholder.svg
+│   └── placeholder-user.jpg
+├── styles
+│   └── globals.css
+├── tailwind.config.ts
+├── tsconfig.json
+└── v0-user-next.config.js
+
+57 directories, 133 files
